@@ -3,15 +3,28 @@ import ReactDOM from 'react-dom'
 
 // import Primeiro from './componentes/Primeiro'
 //import BomDia from './componentes/BomDia'
-import Multi, {BoaNoite} from './componentes/Multiplos'
+// import Multi, {BoaNoite} from './componentes/Multiplos'
+//import Saudacao from './componentes/Saudacao'
+import Pai from './componentes/Pai'
 
-
-const elemento = <h1>React 2</h1>
+// const elemento = <h1>React 2</h1>
 //ReactDOM.render(<Primeiro/>, document.getElementById('root'))
 //ReactDOM.render(<BomDia nome = "Diego"/>, document.getElementById('root'))
+// ReactDOM.render(
+//     <div>
+//        <Multi.BoaTarde nome="Ana"/>
+//        <BoaNoite nome="Bia"/>
+//    </div>
+//, document.getElementById('root'))
+
+//ReactDOM.render(
+//    <div>
+//        <Saudacao tipo="Bom dia" nome="João"/>
+//    </div>
+//, document.getElementById('root'))
+
 ReactDOM.render(
     <div>
-        <Multi.BoaTarde nome="Ana"/>
-        <BoaNoite nome="Bia"/>
+        <Pai nome="Aderbal" sobrenome="Prates"/>
     </div>
 , document.getElementById('root'))
